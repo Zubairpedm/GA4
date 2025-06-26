@@ -1,1 +1,141 @@
-sdofhweior
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LearnWithUs - Online Courses</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f5f7fa;
+      color: #333;
+    }
+
+    header {
+      background: #1e3a8a;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .hero {
+      padding: 3rem 2rem;
+      background: #3b82f6;
+      color: white;
+      text-align: center;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .hero a {
+      background: white;
+      color: #1e3a8a;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .hero a:hover {
+      background: #dbeafe;
+    }
+
+    .courses {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .course-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+
+    .course-card h3 {
+      margin: 1rem 0 0.5rem;
+    }
+
+    .course-card p {
+      font-size: 0.95rem;
+      color: #666;
+    }
+
+    .course-card a {
+      display: inline-block;
+      margin-top: 1rem;
+      background: #1e3a8a;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .course-card a:hover {
+      background: #374151;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #1e3a8a;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>LearnWithUs</h1>
+  </header>
+
+  <section class="hero">
+    <h2>Upgrade Your Skills With Our Online Courses</h2>
+    <p>Learn at your own pace from industry experts. Start today!</p>
+    <a href="#courses">Browse Courses</a>
+  </section>
+
+  <section id="courses" class="courses">
+    <div class="course-card">
+      <h3>Web Development Bootcamp</h3>
+      <p>Master HTML, CSS, JavaScript, and build real-world projects.</p>
+      <a href="#">Enroll Now</a>
+    </div>
+    <div class="course-card">
+      <h3>Data Science with Python</h3>
+      <p>Learn data analysis, visualization, and machine learning.</p>
+      <a href="#">Enroll Now</a>
+    </div>
+    <div class="course-card">
+      <h3>UI/UX Design Masterclass</h3>
+      <p>Design beautiful and user-friendly interfaces with Figma.</p>
+      <a href="#">Enroll Now</a>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 LearnWithUs. All rights reserved.
+  </footer>
+
+</body>
+</html>
